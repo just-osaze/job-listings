@@ -1,0 +1,22 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+header{
+    background-color: hsl(180, 29%, 50%);
+    height: 6rem;
+}
+header img{
+    height: 6rem;
+    width: 100%;
+}
+.item{
+    
+}
+.attribution {
+    font-size: 11px; 
+    text-align: center; 
+}
+.attribution a {
+    color: hsl(228, 45%, 44%); 
+}
