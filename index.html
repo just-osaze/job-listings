@@ -8,370 +8,407 @@
   <link rel="stylesheet" href="stylesheet.css">
   
   <title>Frontend Mentor | Job Listings</title>
-
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    
-  </style>
+  
 </head>
 <body>
   <header>
-    <img src="images/bg-header-desktop.svg">
+    <!-- <img src="images/bg-header-mobile.svg"> -->
   </header>
   <div class="container">
     <!-- First Item Start -->
-    <div class="item">
-      <div class="item-img">
+    <section>
+      <div class="section-img">
         <img src="images/photosnap.svg">
       </div>
-      <div class="full-ad">
-        <div class="job">
-          <p>Photosnap</p>
-          <p>New!</p>
-          <p>Featured</p>
-          <p>Senior Frontend Developer</p>
-          <p>1d ago</p>
-          <p>Full Time</p>
-          <p>USA only</p> 
-        </div>     
-        <hr>
-        <div class="job-tools">
-          <!-- Role -->
-          <div class="role">
-            <p>Frontend</p>
-          </div>
-          <!-- Level -->
-          <div class="level">
-            <p>Senior</p>
-          </div>
-          <!-- Languages -->
-          <div class="language">
-            <p>HTML</p>
-            <p>CSS</p>
-            <p>JavaScript</p>
+      <div class="item">
+        <div class="full-ad">
+          <div class="job">
+            <div class="job-header">
+              <p class="company">Photosnap</p>
+              <p id="new">NEW!</p>
+              <p id="feat">FEATURED</p>
+            </div>
+            <p id="job-title">Senior Frontend Developer</p>
+            <div class="time">
+              <p class=time-posted>1d ago</p>
+              <p class="dot">.</p>
+              <p class="job-type">Full Time</p>
+              <p class="dot">.</p>
+              <p class="location">USA only</p> 
+            </div>
+          </div>     
+          <hr>
+          <div class="job-tools">
+            <span class="tools">
+              <!-- Role -->
+              <p class="role">Frontend</p>
+              <!-- Level -->
+              <p class="level">Senior</p>
+              <p class="lang">HTML</p>
+            </span>
+            <!-- Languages -->
+            <span class="language">
+              <p class="lang">CSS</p>
+              <p class="lang">JavaScript</p>
+            </span>
           </div>
         </div>
       </div>
-    </div>
+    </section>
+    
     <!-- Second Item Start -->
-    <div class="item">
-      <div class="item-img">
-        <div>
-          <img src="images/manage.svg">
-        </div>
+    <section>
+      <div class="section-img">
+        <img src="images/manage.svg">
+      </div>
+      <div class="item">
         <div class="full-ad">
           <div class="job">
-            <p>Manage</p>
-            <p>New!</p>
-            <p>Featured</p>
-            <p>Fullstack Developer</p>
-            <p>1d ago</p>
-            <p>Part Time</p>
-            <p>Remote</p>
+            <div class="job-header">
+              <p class="company">Manage</p>
+              <p id="new">New!</p>
+              <p id="feat">Featured</p>
+            </div>
+            <p id="job-title">Fullstack Developer</p>
+            <div class="time">
+              <p class="time-posted">1d ago</p>
+              <p class="dot">.</p>
+              <p class="job-type">Part Time</p>
+              <p class="dot">.</p>
+              <p class="location">Remote</p>
+            </div>
           </div>
           <hr>
           <div class="job-tools">
-            <!-- Role -->
-            <div class="role">
-              <p>Fullstack</p>
-            </div>
-            <!-- Level -->
-            <div class="level>">
-              <p>Midweight</p>
-            </div>
-            <!-- Languages -->
-            <div class="lang">
-              <p>Python</p>
-            </div>
+            <span class="tools">
+              <!-- Role -->
+              <p class="role">Fullstack</p>
+              <!-- Level -->
+              <p class="level">Midweight</p>
+              <!-- Languages -->
+              <p class="lang">Python</p>
+            </span>
             <!-- tools -->
-            <div class="tools">
-              <p>React</p>
-            </div>
+            <span class="language">
+              <p class="lang">React</p>
+            </span>
           </div>
         </div>
       </div>
-    </div>
+    </section>
+
     <!-- Third item start -->
-    <div class="item">
-      <div class="item-img">
+    <section>
+      <div class="section-img">
         <img src="images/account.svg">
       </div>
-      <div class="full-ad">
-        <div class="job">
-          <p>Account</p>
-          <p>New!</p>
-          <p>Junior Frontend Developer</p>
-          <p>2d ago</p>
-          <p>Part Time</p>
-          <p>USA only</p>
-        </div>    
-        <hr>
-        <div class="job-tools">
-          <!-- Role -->
-          <div class="role">
-            <p>Frontend</p>
-          </div>
-          <!-- Level -->
-          <div class="level">
-            <p>Junior</p>
-          </div>
-          <!-- Languages -->
-          <div class="lang">
-            <p>JavaScript</p>        
-          </div>
-          <div class="tools">
-            <p>React</p>
-            <p>Sass</p>
-          </div>
-        </div> 
-      </div>
-    </div>     
-    </div>
+      <div class="item">
+        <div class="full-ad">
+          <div class="job">
+            <div class="job-header">
+              <p class="company">Account</p>
+              <p id="new">New!</p>
+            </div>
+            <p id="job-title" style="display:inline-block; margin-top:-10px">Junior Frontend Developer</p>
+            <div class="time">
+              <p class="time-posted">2d ago</p>
+              <p class="dot">.</p>
+              <p class="job-type">Part Time</p>
+              <p class="dot">.</p>
+              <p class="location">USA only</p>
+            </div>
+          </div>    
+          <hr>
+          <div class="job-tools">
+            <span class="tools">
+              <!-- Role -->
+              <p class="role">Frontend</p>
+              <!-- Level -->
+              <p class="level">Junior</p>
+              <!-- Languages -->
+              <p class="level">React</p>                      
+            </span>
+            <!-- Tools -->
+            <span class="language">         
+              <p class="lang">Sass</p>
+              <p class="lang">JavaScript</p>
+            </span>
+          </div> 
+        </div>
+    </section>
+
     <!-- Fourth item start -->
-    <div class="item">
-      <div class="item-image">
+    <section>
+      <div class="section-img">
         <img src="images/myhome.svg">
       </div>
-      <div class="full-ad">
-        <div class="job">
-          <p>MyHome</p>
-          <p>Junior Frontend Developer</p>
-          <p>5d ago</p>
-          <p>Contract</p>
-          <p>USA only</p>
-        </div>
-        <hr>
-        <div class="job-tools">
-          <!-- Role -->
-          <div class="role">
-            <p>Frontend</p>
+      <div class="item">
+        <div class="full-ad">
+          <div class="job">
+            <div class="job-header">
+              <p class="comp">Myhome</p>
+              <p id="job-title">Junior Frontend Developer</p>
+            </div>
+            <div class="time">
+              <p class="time-posted">5d ago</p>
+              <p class="dot">.</p>
+              <p class="job-type">Contract</p>
+              <p class="dot">.</p>
+              <p class="location">USA only</p>
           </div>
-          <!-- Level -->
-          <div class="level">
-           <p>Junior</p>
           </div>
-          <!-- Languages -->
-          <div class="lang">
-            <p>CSS</p>
-            <p>JavaScript</p>
-          </div>      
-        </div>
-      </div>
-    </div>
+          <hr>
+          <div class="job-tools">
+            <span class="tools">
+              <!-- Role -->
+              <p class="role">Frontend</p>
+              <!-- Level -->
+              <p class="level">Junior</p>
+              <!-- Languages -->
+              <p class="lang">CSS</p>              
+            </span>
+            <span class="language">
+              <p class="lang">JavaScript</p> 
+            </span>
+          </div>
+      </section>    
+
     <!-- Fifth item start -->
-    <div class="item">
-      <div>
+    <section>
+      <div class="section-img">
         <img src="images/loop-studios.svg">
       </div>
-      <div class="full-ad">
-        <div class="job">
-          <p>Loop Studios</p>
-          <p>Software Engineer</p>
-          <p>1w ago</p>
-          <p>Full Time</p>
-          <p>Worldwide</p>
-          <p></p>
-          <p></p>
-        </div>
-        <hr>
-        <div class="job-tools">
-          <!-- Role -->
-          <div class="role">
-            <p>Fullstack</p>
+      <div class="item">
+        <div class="full-ad">
+          <div class="job">
+            <div class="job-header">
+              <p class="comp">Loop Studios</p>
+              <p id="job-title">Software Engineer</p>
+            </div>
+            <div class="time">
+              <p class="time-posted">1w ago</p>
+              <p class="dot">.</p>
+              <p class="job-type">Full Time</p>
+              <p class="dot">.</p>
+              <p class="location">Worldwide</p>
+            </div>
           </div>
-          <!-- Level -->
-          <div class="level">
-            <p>Midweight</p>
+          <hr>
+          <div class="job-tools">
+            <span class="tools">
+            <!-- Role -->
+              <p class="role">Fullstack</p>            
+            <!-- Level -->
+              <p class="level">Midweight</p>
+            </span>
+            <!-- Languages -->
+            <span class="language">
+              <p class="lang">JavaScript</p>
+              <p class="lang">Sass</p>
+              <p class="lang">Ruby</p>              
+            </span>      
           </div>
-          <!-- Languages -->
-          <div class="lang">
-            <p>JavaScript</p>
-            <p>Ruby</p>
-          </div>
-          <div class="tools">
-            <p>Sass</p>
-          </div>      
         </div>
       </div>
-    </div>
+    </section>
+    
     <!-- Sixth item start -->
-    <div class="item">
-      <div class="item-img">
+    <section>
+      <div class="section-img">
         <img src="images/faceit.svg">
       </div>
-      <div class="full-ad">
-        <div class="job">
-          <p>FaceIt</p>
-          <p>Junior Backend Developer</p>
-          <p>2w ago</p>
-          <p>Full Time</p>
-          <p>UK only</p>
-        </div>
-        <hr>
-        <div class="job-tools">
-          <!-- Role -->
-          <div class="role">
-            <p>Backend</p>
+      <div class="item">
+        <div class="full-ad">
+          <div class="job">
+            <div class="job-header">
+              <p class="comp">FaceIt</p>
+              <p id="job-title">Junior Backend Developer</p>
+            </div>
+            <div class="time">
+              <p class="time-posted">2w ago</p>
+              <p class="dot">.</p>
+              <p class="job-type">Full Time</p>
+              <p class="dot">.</p>
+              <p class="location">UK only</p>
+            </div>
           </div>
-          <!-- Level -->
-          <div class="level">
-            <p>Junior</p>
+          <hr>
+          <div class="job-tools">
+           <span class="tools">
+             <!-- Role -->
+             <p class="role">Backend</p>
+             <!-- Level -->
+              <p class="level">Junior</p>
+              <!-- Languages -->
+              <p class="lang">Ruby</p>
+            </span>
+            <span class="language">
+              <p class="lang">Ror</p>
+            </span>      
           </div>
-          <!-- Languages -->
-          <div class="lang">
-            <p>Ror</p>
-          </div>      
         </div>
       </div>
-  </div>
+    </section>
+
     <!-- Seventh item start -->
-    <div class="item">
-      <div class="item-img">
+    <section>
+      <div class="section-img">
         <img src="images/shortly.svg">
       </div>
-      <div class="full-ad">
-        <div class="job">
-          <p>Shortly</p>
-          <p>Junior Developer</p>
-          <p>2w ago</p>
-          <p>Fulltime</p>
-          <p>Worlwide</p>
-          <p></p>
-          <p></p>
-        </div>
-        <hr>
-        <div class="job-tools">
-          <!-- Role -->
-          <div class="role">
-            <p>Frontend</p>
+      <div class="item">        
+        <div class="full-ad">
+          <div class="job">
+            <div class="job-header">
+              <p class="comp">Shortly</p>
+              <p id="job-title">Junior Developer</p>
+            </div>
+            <div class="time">
+              <p class="time-posted">2w ago</p>
+              <p class="dot">.</p>
+              <p class="job-type">Fulltime</p>
+              <p class="dot">.</p>
+              <p class="location">Worlwide</p>
+            </div>
           </div>
-          <!-- Level -->
-          <div class="level">
-            <p>Junior</p>
-          </div>
-          <!-- Languages -->
-          <div class="lang">
-            <p>HTML</p>
-            <p>JavaScript</p>
-          </div>
-          <div class="tools">
-            <p>Sass</p>
+          <hr>
+          <div class="job-tools">
+            <span class="tools">
+              <!-- Role -->
+              <p class="role">Frontend</p>
+              <!-- Level -->
+              <p class="level">Junior</p>
+              <!-- Languages -->
+              <p class="lang">HTML</p>
+            </span>              
+              <span class="language">              
+                <p class="lang">JavaScript</p>
+                <p class="lang">Sass</p>
+              </span>              
           </div>      
         </div>   
-      </div>   
-    </div>
+      </div> 
+    </section>
+
     <!-- Eight item start -->
-    <div class="item">
-      <div class="item-img">
+    <section>
+      <div class="section-img">
         <img src="images/insure.svg">
       </div>
-      <div class="full-ad">
-        <div class="job">
-          <p>Insure</p>
-          <p>Junior Frontend Developer</p>
-          <p>2w ago</p>
-          <p>USA only</p>
-          <p>Full Time</p>
-        </div>
-        <hr>
-        <div class="job-tools">
-          <!-- Role -->
-          <div class="role">
-            <p>Frontend</p>
+      <div class="item">        
+        <div class="full-ad">
+          <div class="job">
+            <div class="job-header">
+              <p class="comp">Insure</p>
+              <p id="job-title">Junior Frontend Developer</p>
+            </div>
+            <div class="time">
+              <p class="time-posted">2w ago</p>
+              <p class="dot">.</p>
+              <p class="job-type">Full Time</p>
+              <p class="dot">.</p>
+              <p class="location">USA only</p> 
+            </div>           
           </div>
-          <!-- Level -->
-          <div class="level">
-            <p>Junior</p>
+          <hr>
+          <div class="job-tools">
+            <span class="tools">
+              <!-- Role -->
+              <p class="role">Frontend</p>
+              <!-- Level -->
+              <p class="level">Junior</p>            
+              <!-- Languages -->
+              <p class="lang">Vue</p>
+            </span>
+            <span class="language">
+              <p class="lang">JavaScript</p>            
+              <p class="lang">Sass</p>
+            </span>      
           </div>
-          <!-- Languages -->
-          <div class="lang">
-            <p>JavaScript</p>        
-          </div>
-          <div class="tools">
-          <p>Vue</p>
-          <p>Sass</p>
-          </div>      
         </div>
       </div>
-    </div>
+    </section>
+
     <!-- Ninth item start -->
-    <div class="item">
-      <div class="item-img">
+    <section>
+      <div class="section-img">
         <img src="images/eyecam-co.svg">
       </div>
-      <div class="full-ad">
-        <div class="job">
-          <p>Eyecam Co.</p>
-          <p>Full Stack Engineer</p>
-          <p>3w ago</p>
-          <p>Full Time</p>
-          <p>Worldwide</p>
-        </div>
-        <hr>
-        <div>
-          <!-- Role -->
-          <div class="role">
-            <p>Fullstack</p>
+      <div class="item">
+        <div class="full-ad">
+          <div class="job">
+            <div class="job-header">
+              <p class="comp">Eyecam Co.</p>
+              <p id="job-title">Full Stack Engineer</p>
+            </div>
+            <div class="time">
+              <p class="time-posted">3w ago</p>
+              <p class="dot">.</p>
+              <p class="job-type">Full Time</p>
+              <p class="dot">.</p>
+              <p class="location">Worldwide</p>
+            </div>
           </div>
-          <!-- Level -->
-          <div class="level">
-            <p>Midweight</p>
-          </div>
-          <!-- Languages -->
-          <div class="lang">
-            <p>JavaScript</p>
-            <p>Python</p>
-          </div>
-          <div class="tools">
-            <p>Django</p>
+          <hr>
+          <div class="job-tools">
+            <span class="tools">
+              <!-- Role -->
+              <p class="role">Fullstack</p>
+              <!-- Level -->
+              <p class="level">Midweight</p>
+            </span>
+            <!-- Languages -->
+            <span class="language">
+              <p class="lang">JavaScript</p>
+              <p class="lang">Python</p>
+              <p class="lang">Django</p>
+            </span>
           </div>
         </div>
       </div>
-    </div>
-    <!-- Tenth item start -->
-    <div class="item">
-      <div class="item-img">
+    </section>
+
+    <!-- Tenth item starts -->
+    <section>
+      <div class="section-img">
         <img src="images/the-air-filter-company.svg">
       </div>
-      <div class="full-ad">
-        <div class="job">
-          <p>The Air Filter Company</p>
-          <p>Front-end Dev</p>
-          <p>1mo ago</p>
-          <p>Part Time</p>
-          <p>Worldwide</p>
-          <p></p>
-          <p></p>
-        </div>
-        <hr>
-        <div class="job-tools">
-          <!-- Role -->
-          <div class="role">
-            <p>Frontend</p>
+      <div class="item">
+        <div class="full-ad">
+          <div class="job">
+            <div class="job-header">
+              <p class="comp">The Air Filter Company</p>            
+              <p id="job-title">Front-end Dev</p>
+            </div>
+              <div class="time"></div>
+                <p class="time-posted">1mo ago</p>
+                <p class="dot">.</p>
+                <p class="job-type">Part Time</p>
+                <p class="dot">.</p>
+                <p class="location">Worldwide</p>
+            </div>
           </div>
-          <!-- Level -->
-          <div class="level">
-            <p>Junior</p>
+          <hr>
+          <div class="job-tools">
+            <span class="tools">
+              <!-- Role -->
+              <p class="role">Frontend</p>
+              <!-- Level -->
+              <p class="level">Junior</p>
+              <!-- Languages -->
+              <p class="lang">React</p>              
+            </span>
+            <span class="language">
+              <p class="lang">Sass</p>
+              <p class="lang">JavaScript</p> 
+            </span>
           </div>
-          <!-- Languages -->
-          <div class="lang">
-            <p>JavaScript</p>        
-          </div>
-          <div class="tools">
-            <p>React</p>
-            <p>Sass</p>
-          </div>
-        </div>
+      </section>
+    <footer>
+      <div class="attribution">
+        Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+        Coded by <a href="https://github.com/just-osaze/job-listings" target="_blank">Osaze</a>.
       </div>
-    </div>
+    </footer>
   </div>
-  
-  <footer>
-    <div class="attribution">
-      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-      Coded by <a href="#" target="_blank">Osaze</a>.
-  </footer>
-  </div>
-</div>
 </body>
 </html>

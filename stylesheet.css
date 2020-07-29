@@ -1,8 +1,10 @@
-body{
+ body{
     margin: 0;
     padding: 0;
+    background: hsl(180, 52%, 96%);
 }
 header{
+    background: url(images/bg-header-mobile.svg);
     background-color: hsl(180, 29%, 50%);
     height: 6rem;
 }
@@ -10,13 +12,173 @@ header img{
     height: 6rem;
     width: 100%;
 }
-.item{
-    
+section{
+    margin-top: -20px;
 }
+.section-img{
+    margin-left: 60px;
+    margin-top: 50px;
+}
+.item{
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 10px;;
+    margin: -50px 30px 0 30px;
+    height: 330px;
+    box-shadow: 0 2px 20px 0 hsla(0, 0%, 0%, 0.2);
+}
+.job{
+    padding: 65px 0 0 10px;
+    margin-left: 20px;
+    height: 120px;
+    content: "";
+    display: table;
+    clear: both;
+}
+.jb{
+    padding: 65px 0 0 10px;
+    margin-left: 20px;
+    height: 120px;
+    content: "";
+    display: table;
+    clear: both;
+}
+.job-header{
+    margin-top: -20px;
+}
+.company{
+    color: hsl(180, 29%, 50%);
+    float: left;
+    margin-right: 20px;
+    font-size: 16px;
+    font-weight: 700;
+}
+.comp{
+    color: hsl(180, 29%, 50%);
+    font-size: 16px;
+    font-weight: 700;
+    margin: 17px 20px 0 0;
+}
+#new{
+    background-color: hsl(180, 29%, 50%);
+    color: hsl(180, 31%, 95%);
+    text-align: center;
+    border-radius: 20px;
+    float: left;
+    margin-right: 10px;
+    width: 50px;
+    padding: 4px 4px 2px 6px;
+    margin-top: 13px;
+}
+#feat{
+    background-color: hsl(0, 3%, 21%);
+    color: hsl(180, 31%, 95%);
+    width: 90px;
+    text-align: center;
+    border-radius: 20px;
+    float: left;
+    padding: 4px 4px 3px 6px;
+    margin-top: 13px;
+}
+#job-title{
+    font-weight: 700;
+}
+.time{
+    margin-top: -13px;
+    overflow: hidden;
+
+}
+.time-posted, .job-type, .location{
+    float: left;
+    margin-right: 10px;
+}
+.dot{
+    float: left;
+    font-size: 30px;
+    margin: -1px 10px 0 0;
+}
+hr{
+    width: 85%;
+    margin: -10px 0 0 30px;
+}
+.job-tools{
+    margin: 0 0 10px 20px;
+}
+.tools{
+    content: "";
+    display: table;
+    clear: both;
+    margin-bottom: -20px;
+}
+.role, .level, .lang{
+    margin-right: 13px;
+    background: hsl(180, 52%, 96%);
+    border-radius: 5px;
+    padding: 10px;
+    font-weight: 700;
+    float: left;
+}
+.lamguage{
+    margin-right: 20px;
+    background: hsl(180, 52%, 96%);
+    border-radius: 5px;
+    padding: 10px;
+    font-weight: 700;
+    float: left;
+}
+
 .attribution {
     font-size: 11px; 
     text-align: center; 
+    background-color: hsl(180, 8%, 52%);
+    margin-top: 20px;
+    padding-top:20px;
+    font-size: 15px;
+    padding-bottom: 8px;
 }
 .attribution a {
     color: hsl(228, 45%, 44%); 
+} 
+@media only screen and (min-width: 600px) {
+    body{   
+        margin: 0;
+        padding: 0;
+    }
+    header{
+        background: url(images/bg-header-desktop.svg);
+        width: 100%;
+        background-color: hsl(180, 29%, 50%);
+    }
+    .section-img{
+        overflow: hidden;
+        margin: 120px 0 0 140px;
+    }
+    .item{
+        margin: -130px 60px 0 100px;
+        height: 160px;
+        content: "";
+        display: table;
+        clear: both;   
+        width: 86%;     
+    }
+    .full-ad{
+        margin-left: 20px;
+    }
+    hr{
+        display: none;
+    }
+    .job{
+        float: left;
+        margin: -25px 0 0 130px;
+    }
+    .job-tools{
+        float: right;       
+        margin: 50px 40px 0 150px;
+    }
+    .tools{
+        display: inline-block;
+    }
+    .language{
+        display: inline-block;
+        margin-bottom: -20px;
+    }
 }
